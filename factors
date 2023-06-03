@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 from sys import argv
 import math
-"""Factorize as many numbers as possible into a product of 2 smaller nums"""
+"""Factorize numbers as possible 2 smaller nums"""
 
 
 def factory(num):
@@ -24,7 +24,7 @@ def factory(num):
 
 
 def factors(filename):
-    """read_file and prints them out"""
+    """read_file and prints themi out"""
 
     with open(filename, encoding="utf-8") as my_file:
         for i in my_file.readlines():
